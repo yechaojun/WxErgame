@@ -1,0 +1,7 @@
+require("js/egret.js")
+require("js/eui.js")
+require("js/assetsmanager.js")
+require("js/egret3d.js")
+//require("js/inspector.js")
+require("js/main.js")
+require("js/default.thm.js")
