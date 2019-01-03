@@ -75,7 +75,7 @@ var helloworld;
             var t;
             return __generator(this, function (_a) {
                 switch (_a.label) {
-                    case 0: return [4 /*yield*/, RES.loadConfig("default.res.json", "resource/")];
+                  case 0: return [4 /*yield*/, RES.loadConfig("http://129.204.122.74/resource/default.res.json", "http://129.204.122.74/resource/")];
                     case 1:
                         _a.sent();
                         return [4 /*yield*/, RES.getResAsync("logo.png")];
@@ -207,7 +207,7 @@ var MoveObj = (function (_super) {
     MoveObj.prototype.onUpdate = function (deltaTime) {
         var pos = this.gameObject.transform.getPosition();
         pos.z += 30 * deltaTime;
-       console.log("add z........." + 30*deltaTime);
+      // console.log("add z........." + 30*deltaTime);
         //    if(pos.z >= 200)
         {
             //    pos.z = -200;
